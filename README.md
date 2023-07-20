@@ -36,9 +36,7 @@ change the name, merge topics, delete topics. Save changes made to the model.
 
 To train a new model, use the function `train_model` in `assets.train_model`.
 
-- Train model from opensearch: see an example in `train_tm_from_data_loader.py`.
 - Train model from csv: see an example in `train_tm_from_csv.py`.
-
 
 The function `train_model` will save the model in the *models* folder by default, then you can rerun the
 Streamlit app and will be able to interact with the model.
